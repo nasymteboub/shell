@@ -1,0 +1,45 @@
+teboub@teboub-LIFEBOOK-E752:~$ pwd
+/home/teboub
+teboub@teboub-LIFEBOOK-E752:~$ mkdir jaime_le_shell
+teboub@teboub-LIFEBOOK-E752:~$ cd jaime_le_shell
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ touch test1
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ touch test2
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ touch test3
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ touch test4
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ touch test5
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ touch test6
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ LS -L
+
+La commande « LS » n'a pas été trouvée, mais peut être installée avec :
+
+sudo apt install sl
+
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ ls -l
+total 0
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:48 test1
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:48 test2
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:49 test3
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:49 test4
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:49 test5
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:49 test6
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ mkdir le_shell_cest_trop_cool
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ mv test1 le_shell_cest_trop_cool
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ mv test2 le_shell_cest_trop_cool
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ mv test5 le_shell_cest_trop_cool
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ cp test2 le_shell_cest_trop_cool
+cp: impossible d'évaluer 'test2': Aucun fichier ou dossier de ce type
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ cp test6 le_shell_cest_trop_cool
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ ls -a
+.  ..  le_shell_cest_trop_cool  test3  test4  test6
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell$ cd le_shell_cest_trop_cool
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell/le_shell_cest_trop_cool$ ls -a
+.  ..  test1  test2  test5  test6
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell/le_shell_cest_trop_cool$ ls -l
+total 0
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:48 test1
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:48 test2
+-rw-r--r-- 1 teboub teboub 0 janv. 22 19:49 test5
+-rw-r--r-- 1 teboub teboub 0 janv. 22 20:01 test6
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell/le_shell_cest_trop_cool$ ^C
+teboub@teboub-LIFEBOOK-E752:~/jaime_le_shell/le_shell_cest_trop_cool$ 
+
